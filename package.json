@@ -1,0 +1,17 @@
+{
+  "name": "socketapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "william",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.2.0"
+  }
+}
